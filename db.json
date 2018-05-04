@@ -1,12 +1,17 @@
 {
   "users": [
-    { "id": "1", "firstName": "Alex", "age": 31 },
-    { "id": "23", "firstName": "Bill", "age": 20 },
-    { "id": "47", "firstName": "Samantha", "age": 21 },
-    { "id": "48", "firstName": "Wojciech", "age": 36 },
-    { "id": "49", "firstName": "Piotrek", "age": 21 },
-    { "id": "50", "firstName": "Paulina", "age": 21 },
-    { "id": "51", "firstName": "Gabrysia", "age": 21 },
-    { "id": "52", "firstName": "Michał", "age": 21 }
+    { "id": "1", "firstName": "Alex", "age": 31, "companyId": "1"},
+    { "id": "23", "firstName": "Bill", "age": 20, "companyId": "2"},
+    { "id": "47", "firstName": "Samantha", "age": 21, "companyId": "3"},
+    { "id": "48", "firstName": "Wojciech", "age": 36, "companyId": "1"},
+    { "id": "49", "firstName": "Piotrek", "age": 34, "companyId": "2"},
+    { "id": "50", "firstName": "Paulina", "age": 32, "companyId": "3"},
+    { "id": "51", "firstName": "Gabrysia", "age": 19, "companyId": "2"},
+    { "id": "52", "firstName": "Michał", "age": 28, "companyId": "1" }
+  ],
+  "companies": [
+    {"id": "1", "name": "Apple", "description": "iPhone"},
+    {"id": "2", "name": "Google", "description": "search"},
+    {"id": "3", "name": "Microsoft", "description": "Windows"}
   ]
 }

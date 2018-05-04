@@ -1,7 +1,7 @@
 ### GraphQL with React Course
 
 ### Run express server
-* npm start
+* npm run dev
 
 ### Run json-server
 * npm run json:server
