@@ -1,14 +1,16 @@
-### GraphQL with React Course
+# GraphQL with React Course
 
-### Run express server
-* npm run dev
+## Run express server
 
-### Run json-server
-* npm run json:server
+npm run dev
 
-### GraphQL fragments
+## Run json-server
 
-~~~~
+npm run json:server
+
+## GraphQL fragments
+
+~~~JS
 query findCompany {
   apple: company (id: "1") {
     ...companyDetails
@@ -31,4 +33,4 @@ fragment companyDetails on Company {
   name
   description
 }
-~~~~
+~~~
